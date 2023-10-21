@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-2</title>
+</head>
+<body>
+    <p>Please fill out this form</p>
+    <form method="post" action="http://www.facebook.com">
+        <p><label>Name:
+            <input name="name" type="text" size="25" maxlength="30">
+        </label></p>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </p>
+    </form>
+
+    <p>Comments: </p>
+    <p><textarea>Enter comments here.</textarea></p>
+
+    <form method="post" action="http://www.deitel.com">
+        <p><label>Password:
+            <input type="password" type="text" minlength="8">
+        </label></p>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <form>
+        <p>
+            <input type="checkbox" id="option1" value="hehe">
+            <label for="option1">hehe</label>
+            <input type="checkbox" id="option2" value="haha">
+            <label for="option2">haha</label>
+        </p>
+    </form>
+
+    <p>Dropdown list exaple:</p>
+    <form>
+        <label for="colors">Select a Color:</label>
+        <select id="colors" name="selected_color">
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
