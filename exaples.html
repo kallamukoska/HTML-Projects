@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examples</title>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <p>Please fill out this form to help us improve our site.</p>
+
+    <form method="post" action="http://www.facebook.com">
+
+        <!-- VIDI GO OVA -->
+        <form method="post" action="http://www.facebook.com">
+            <p><label>Name:
+                <input name="name" type="text" size="25" minlength="1" maxlength="30">
+            </label></p>
+        </form>
+
+        <!-- VIDI GO OVA -->
+        Comments:<br>
+        <textarea placeholder="Enter your comments here" cols="30" rows="5"></textarea>
+
+        <p>    
+            <form method="post" action="http://mail.google.com">
+                <label>Password:
+                    <input type="password" size="25" minlength="8" maxlength="20">
+                </label>
+            </form>
+        </p>
+
+        <!-- checkbox -->
+        <strong>Things you liked:</strong><br>
+        <form>
+            <input type="checkbox" id="option1" value="Site design">
+            <label for="option1">Site design</label>
+            <input type="checkbox" id="option2" value="Links">
+            <label for="option2">Links</label>
+            <input type="checkbox" id="option3" value="Ease of use">
+            <label for="option3">Ease of use</label>
+            <input type="checkbox" id="option4" value="Images">
+            <label for="option4">Images</label>
+        </form>
+
+        <!-- radio -->
+        <p><form>
+            <strong>How did you get to our site?</strong><br>
+            <form>
+                <input type="radio" id="option1" name="one-option">
+                <label for="option1">Search engine</label>
+                <input type="radio" id="option2" name="one-option">
+                <label for="option2">Links from another site</label>
+            </form>
+        </form></p>
+
+        <!-- dropdown list -->
+        <form>
+            <label>Rate our site:
+                <select>
+                    <option value="Amazing">Amazing</option>
+                    <option value="Good">Good</option>
+                    <option value="Bad">Bad</option>
+                </select>
+            </label>
+        </form>
+
+        <p>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear"></p>
+    </form>
+</body>
+</html>
